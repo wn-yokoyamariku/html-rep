@@ -1,0 +1,128 @@
+header {
+    width: 100%;
+    padding: 30px 4% 10px;
+    background-color: #fff;
+    position: fixed;
+   top: 0;
+   display: flex;
+   align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+ }
+
+ li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+ }
+
+ .footer {
+    background-color: black;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+.footer_all{
+    background-image: url("../assets/onlineshop_bg.jpg");
+}
+.shop {
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+
+.buttom {
+    text-align: center;
+}
+
+section {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+footer {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.inner_box {
+    width: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .box {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .text {
+  }
+  
+  h3 {
+    font-size: 21px;
+    margin: 0;
+  }
+  
+  .pict {
+    width: 30%;
+    margin-left: 3%;
+  }
+  
+  .pict img {
+    width: 100%;
+    height:auto;
+  }
+  
+  .box:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .box:nth-child(even) .text {
+    text-align: right;
+  }
+  .box:nth-child(even) .pict {
+    margin-left: 0;
+    margin-right: 3%;
+  }
+
+
+  .outer {
+    width: 80%;
+    margin:auto;
+    background-color: antiquewhite;
+    padding: 30px;
+  }
+
+.concept{
+    text-align: center;
+}
+
+.products_all{
+
+    text-align: center;
+}
+
+.products {
+    display: flex;
+}
