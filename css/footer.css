@@ -1,0 +1,41 @@
+.footer {
+    background-color: black;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+.footer_all{
+    background-image: url("../assets/onlineshop_bg.jpg");
+}
+.shop {
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+}
+
+.buttom {
+    text-align: center;
+}
+
+section {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+footer {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
